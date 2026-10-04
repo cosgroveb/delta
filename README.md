@@ -196,6 +196,12 @@ Side-by-side view wraps long lines automatically:
 <img width="600px" alt="image" src="https://github.com/dandavison/open-in-editor/assets/52205/d203d380-5acb-4296-aeb9-e38c73d6c27f">
 </td></tr></table>
 
+### TUI mode (experimental)
+
+[[User manual](https://dandavison.github.io/delta/tui.html)]
+
+`delta --tui` is an interactive git client and pager that renders with delta: navigate, fold, stage and discard in delta's output. It is based on [gitu](https://github.com/altsem/gitu) by altsem, a git client inspired by Magit, and is embedded via a [fork](https://github.com/dandavison/gitu).
+
 ### Installation and usage
 
 Please see the [user manual](https://dandavison.github.io/delta/) and `delta --help`.
